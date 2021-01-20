@@ -1,0 +1,10 @@
+//soft line break for address, opting hours
+.content1::after{
+    content: "\a";
+    white-space: pre;
+}
+
+.content2::before{
+    content: "\a";
+    white-space: pre;
+}

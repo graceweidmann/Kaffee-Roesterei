@@ -1,0 +1,35 @@
+ #dasCafe {
+    max-height: 75vh;
+    width: 100%;
+    background-origin: border-box;
+    background-position: center;
+   
+    @media only screen and (min-width: $media-l) {
+        max-height: 65vh;
+    }
+}
+
+.bg_cafe_img {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/img/FEND-Coffee-shop.jpg") center/cover no-repeat border-box;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 100%;
+    display: block;
+   position: absolute;
+    margin: 0%;
+    height:332px;
+    @media only screen and (min-width: $media-l) {
+        height:681px;
+background-position: 0% 50%;
+    }
+}
+
+.box_content_dasCafe {
+    margin-top: 332px;
+    @media only screen and (min-width: $media-l) {
+        margin-top:681px;
+}
+}

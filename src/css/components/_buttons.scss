@@ -1,0 +1,131 @@
+/* Button hell */
+.btn_light {
+/* Auto Layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 15px 25px;
+
+position: relative;
+margin: 0%;
+right: 17.65%;
+top: 0%;
+bottom: 0%;
+
+border: 2px solid #1A1A1A;
+box-sizing: border-box;
+border-radius: 5px 0px 0px 5px;
+
+}
+/* wie viel Kaffee brauchst du? */
+.order_amount {
+position: static;
+width: 174px;
+height: 18px;
+left: 25px;
+top: 15px;
+}
+/* body text m */
+body{
+        
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+color: #000000;
+}
+
+/* Inside Auto Layout */
+
+// where does this go?
+// flex: none;
+// order: 0;
+// flex-grow: 0;
+// margin: 0px 15px;
+
+
+
+    /* Property 1=Default */
+
+
+/* Auto Layout */
+.btn {
+display: border-box;
+
+
+box-sizing: border-box;
+border-radius: 5px;
+    margin-left: auto;
+  
+&_big {
+position: relative;
+width: 163px;
+height: 48px;
+padding: 15px 50px;
+left: calc(50% - 163px/2);
+
+}
+
+&_small {
+    
+        position: relative;
+        width: 50px;
+        height: 20px;
+        
+        left: calc(50% - 50px/2);
+        
+        }
+        
+
+&_transparent {
+background-color:transparent;
+
+border: none;
+}
+ 
+&_dark {
+    background: $black;
+    border: 2px solid $black;
+    }
+
+&_light {
+    background: $black;
+    border: 2px solid $white;
+    }
+    &_landing {
+        margin-top: 103px;
+        margin-bottom: 60px;
+        @media only screen and (min-width: $media-l) {
+            margin-top: 103px;
+            margin-bottom: 90px;
+            position: absolute;
+        }
+    }
+    &_kaffee_sorten {
+        margin-top: 40px;
+        margin-bottom: 60px;
+        @media only screen and (min-width: $media-l) {
+        margin-top: 103px;
+        margin-bottom: 125px;
+    }
+}
+    &_herkunft {
+        margin-top: 35px;
+        @media only screen and (min-width: $media-l) {
+            margin-top: 80px;
+        }
+    }
+
+&_herkunft {
+    margin-top: 20px;
+    margin-bottom: 87px;
+    @media only screen and (min-width: $media-l) {
+        margin-top: 35px;
+        margin-bottom: 144px;
+        position: absolute;
+    }
+}
+}

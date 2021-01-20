@@ -1,0 +1,91 @@
+#dasCafe {
+    max-height: 75vh;
+    width: 100%;
+    background-origin: border-box;
+    background-position: center;
+   
+    @media only screen and (min-width: $media-l) {
+        max-height: 65vh;
+    }
+}
+
+.bg_dieHerkunft_img {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/img/FEND-Coffee-beans-hand-2.jpg") center/cover no-repeat border-box;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 100%;
+    display: block;
+   position: absolute;
+    margin: 0%;
+    height:332px;
+    @media only screen and (min-width: $media-l) {
+        height:681px;
+background-position: 0% 50%;
+    }
+}
+//same as .box_content_dasCafe .. fix after confirmation that this is the correct method of positioning
+.box_content_dieHerkunft {
+    margin-top: 332px;
+    @media only screen and (min-width: $media-l) {
+        margin-top:805px;
+}
+}
+.box_img_lg {
+    /* Bildschirmfoto 2021-01-12 um 10.28 1 */
+    height: 183px;
+    width: 327px;
+  
+    @media only screen and (min-width: $media-l) {
+    height: 698px;
+    width: 1241px;
+    left: 100px;
+    
+}
+}
+.box_img_plant {
+    height: 160px;
+    width: 241px;
+    left: 0px;
+    top: 0px;
+    @media only screen and (min-width: $media-l) {
+        width: 717px;
+        height:476px;
+        object-fit: contain;
+        margin-top:251px;
+    margin-bottom: 126px; }
+}
+.box_img_worker {
+    height: 322px;
+    width: 241px;
+    left: 0px;
+    top: 0px;
+    @media only screen and (min-width: $media-l) {
+        width: 675px;
+        height:508px;
+        object-fit: contain;
+        margin-top:85px;
+    margin-bottom: 125px; }
+}
+
+//centered textbox across vw
+.dasHerkunft_textbox_1 {
+    margin-top:0px;
+    @media only screen and (min-width: $media-m) {
+        margin-top:0px;
+width: 40%;
+    margin-top:20px;
+    margin-bottom:20px;
+    transform: translate(50%, 0) } 
+}
+.dasHerkunft_textbox_3 {
+    margin-top:0px;
+    @media only screen and (min-width: $media-l) {
+        margin-top:0px;
+width: 40%;
+    margin-bottom:130px;
+    margin-left: -50px;
+    transform: translate(30%, 0) } 
+}

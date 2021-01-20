@@ -1,0 +1,160 @@
+#cafe {
+   display:border-box;
+  margin-top: 500px;
+    position: relative;
+    background-color: $white;
+    @media only screen and (min-width: $media-m) {
+        margin-top:681px;
+}
+}
+#cafe nav a {
+    color:$black
+}
+/* Auto Layout */
+.auto_layout {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-flow: row wrap;
+    width: 100%;
+    align-items: flex-start;
+    padding: 15px 24px;
+}
+
+/* Inside Auto Layout */
+.inside_auto_layout {
+    flex-flow: row wrap;
+    order: 0;
+    justify-content: right;
+    margin: 0px 24px;
+    
+
+    @media only screen and (min-width: $media-m) {
+        width: 40%;
+    }
+}
+.container_intro_text {
+
+    width: 100%;
+
+
+    @media only screen and (min-width: $media-m) {
+        width: 50%;
+    }
+}
+.box_addr {
+     width: 50%;
+     
+}.addr-hours {
+    display: flex;
+  
+    @media only screen and (min-width: $media-m) {
+        margin-left: 0;
+}
+}
+
+
+/* FEND-Coffee-shop */
+.box_img_cafe {
+    position: relative;
+    width: 241px;
+    height: 182px;
+    float: right;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    @media only screen and (min-width: $media-m) {
+        width: 100%;
+        height:auto;
+        object-fit: contain;
+        margin-top:125px;
+    }
+    // top: 760px;
+}
+
+
+/* FEND-Coffee-shop */
+// .img_cafe {
+//     position: relative;
+//     left: 0%;
+//     right: 0%;
+//     top: 0%;
+//     bottom: 0%;
+
+//     background: url(/img/FEND-Coffee-shop.jpg);
+//     background-size: contain;
+// }
+
+.box_img_beans {
+    height: 160px;
+    width: 241px;
+    left: 0px;
+    top: 0px;
+    @media only screen and (min-width: $media-m) {
+        width: 100%;
+        height:auto;
+        object-fit: contain;
+        margin-top:100px;
+    margin-bottom: 131px; }
+}
+
+.img_beans {
+    /* FEND-coffee-plant */
+
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+.center_textbox {
+position: relative;
+display: border-box;
+    margin-top:125px;
+    
+    @media only screen and (min-width: $media-m) {
+    margin-top:126px;
+    margin-bottom:130px;
+    transform: translate(50%, 0) } 
+}
+.textbox_2 {
+    margin-top:0px;
+    @media only screen and (min-width: $media-m) {
+        margin-top:125px;
+width: 40%;
+    margin-bottom:130px;
+    transform: translate(30%, 0) } 
+}
+
+layout_dark {
+
+    background: #1A1A1A;
+    border: 2px solid #1A1A1A;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+}
+
+.box :nth-child(1) {
+    order: 1;
+}
+
+.box :nth-child(2) {
+    order: 2;
+}
+
+.box :nth-child(3) {
+    order: 3;
+    @media only screen and (min-width: $media-m) {
+        order: 4;
+}
+}
+
+.box :nth-child(4) {
+    order: 4;
+    @media only screen and (min-width: $media-m) {
+        order: 3;
+}
+}

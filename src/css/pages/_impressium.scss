@@ -1,0 +1,21 @@
+#impressium {
+    display:border-box;
+   
+   position: relative;
+}
+.container_impressium {
+    top: 133px;
+    position: relative;
+    display: flex-box;
+    flex-direction: column;
+width: 327px;
+left: 24px;
+
+
+@media only screen and (min-width: $media-l) {
+    height: 2760px;
+    width: 822px;
+    left: 310px;
+    top: 219px;
+}
+}

@@ -1,0 +1,43 @@
+#herkunft {
+    background-size: 100vw 50vh;
+    background-position: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/img/FEND-Coffee-bags-2.jpg") center/cover no-repeat border-box;
+    width: 100%;
+    height: 332px;
+    margin-top: 0px;
+
+    @media only screen and (min-width: $media-l) {
+    margin-top: 0px;
+    height: 524px;
+}  
+}
+
+
+.box_herkunft{
+display:border-box;
+position:absolute;
+width:100vw;
+}
+
+.box_herkunft_bg {
+    margin-top: 87px;
+    @media only screen and (min-width: $media-l) {
+        margin-top: 145px;
+    }
+}
+
+.box_center {
+    display: flex;
+  
+    justify-content: center;
+}
+.box_herkunft_text { 
+   margin-top: 12px;
+   width:241px;
+   height: 68px;
+   @media only screen and (min-width: $media-l) {
+    margin-top: 35px;
+    width:306px;
+   height: 96px;
+}
+}

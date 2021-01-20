@@ -1,0 +1,27 @@
+#contact{
+      
+    position: relative;
+    background-color: $white;
+
+}
+
+    
+.box_contact_map {
+    display: block;
+   position: relative;
+    width: 100%;
+    height: auto;
+    object-fit:cover;
+    @media only screen and (min-width: $media-l) {
+        height: 484px;
+    }
+}
+
+.img_map {
+  
+
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}

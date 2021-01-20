@@ -1,0 +1,22 @@
+@import "variables";
+@import "base";
+@import "components/mixins";
+@import "components/hero";
+@import "components/buttons";
+@import "components/grids";
+@import "components/gallery";
+@import "components/images";
+@import "components/nav";
+@import "pages/cafe_roesterei";
+@import "pages/kaffee_sorten";
+@import "pages/herkunft";
+@import "pages/coffee_features";
+@import "pages/contact";
+@import "pages/footer";
+@import "pages/impressium";
+@import "pages/dasCafe";
+@import "pages/dieHerkunft";
+
+:root {
+  --div-color: #000000;
+}
