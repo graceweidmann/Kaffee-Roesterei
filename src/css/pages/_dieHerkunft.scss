@@ -1,13 +1,5 @@
-#dasCafe {
-    max-height: 75vh;
-    width: 100%;
-    background-origin: border-box;
-    background-position: center;
-   
-    @media only screen and (min-width: $media-l) {
-        max-height: 65vh;
-    }
-}
+#dieHerkunft   {}
+
 
 .bg_dieHerkunft_img {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/img/FEND-Coffee-beans-hand-2.jpg") center/cover no-repeat border-box;
@@ -38,26 +30,32 @@ background-position: 0% 50%;
     height: 183px;
     width: 327px;
   
-    @media only screen and (min-width: $media-l) {
-    height: 698px;
-    width: 1241px;
+    @media only screen and (min-width: $media-m) {
+    width: 100%;
+    height: auto;
+  
     left: 100px;
     
 }
 }
 .box_img_plant {
+    display:border-box;
+    position: relative;
     height: 160px;
     width: 241px;
     left: 0px;
     top: 0px;
-    @media only screen and (min-width: $media-l) {
-        width: 717px;
-        height:476px;
-        object-fit: contain;
-        margin-top:251px;
-    margin-bottom: 126px; }
+    object-fit: contain; 
+    @media only screen and (min-width: $media-m) {
+    height: auto;
+    width: 100%;
+    top: 140px;
+    margin-bottom: 126px; 
+}
 }
 .box_img_worker {
+    display:border-box;
+    position: relative;
     height: 322px;
     width: 241px;
     left: 0px;
@@ -71,7 +69,7 @@ background-position: 0% 50%;
 }
 
 //centered textbox across vw
-.dasHerkunft_textbox_1 {
+.dieHerkunft_textbox_1 {
     margin-top:0px;
     @media only screen and (min-width: $media-m) {
         margin-top:0px;
@@ -80,12 +78,19 @@ width: 40%;
     margin-bottom:20px;
     transform: translate(50%, 0) } 
 }
-.dasHerkunft_textbox_3 {
+.dieHerkunft_textbox_3 {
     margin-top:0px;
     @media only screen and (min-width: $media-l) {
-        margin-top:0px;
-width: 40%;
+    margin-top:0px;
+    width: 80%;
     margin-bottom:130px;
-    margin-left: -50px;
     transform: translate(30%, 0) } 
+}
+.dieHerkunft_textbox_4 {
+    margin-top:0px;
+    @media only screen and (min-width: $media-l) {
+    margin-top:150px;
+    width: 80%;
+    margin-bottom:130px;
+    margin-left: 50px; } 
 }
