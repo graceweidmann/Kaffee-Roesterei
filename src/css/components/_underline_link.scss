@@ -1,0 +1,27 @@
+a {
+  text-decoration: none;
+}
+
+.link {
+  position: relative;
+  z-index: 1;
+}
+
+.link:after {
+  content: '';
+  position: absolute;
+  width: 0; height: 3px;
+  display: block;
+//   margin-top: 5px;
+  right: 0;
+  background: #fff;
+  transition: width .2s ease;
+  -webkit-transition: width .2s ease;
+}
+ 
+.link:hover:after{
+  width: 100%;
+  left: 0;
+  background: #fff;
+}
+

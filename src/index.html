@@ -7,28 +7,38 @@
   <title>Index Page</title>
   <link rel="stylesheet" href="
   css/main.scss" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Oregano" rel="stylesheet" />
 </head>
 
 
-<body>
-
-  <nav class="fixed-header" href=#landing_page>
-    <div class=nav_wrapper>
-      <div>
-        <ul class="menu nav">
-          <div class="logo">
-          <img src="img/Logo.png" alt="logo" srcset="img/logo.svg">
-</div>
-          <li class="item"><a href="dasCafe.html">das Cafe</a></li>
-          <li class="item"><a href="dieHerkunft.html">Herkunft</a></li>
-          <li class="item"><a href="#">Shop</a></li>
-          <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+<body> 
+ <header>
+            <div id= "mobilSidenav" class="container">
+                <nav class="navbar">
+                    <div class="logo">
+                      <img src="img/Logo.png" alt="logo" srcset="img/logo.svg">
+                    </div>
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a class="nav-link nav_fontsize active link" href="dasCafe.html">das Cafe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav_fontsize link" href="dieHerkunft.html">Herkunft</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav_fontsize link" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav_fontsize link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="menu-toggle">
+                        <div class="hamburger">
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
 
   <section id="landing_page">
     <div class="box_img">
@@ -192,9 +202,7 @@
   <section id="coffee_features">
 
     <div class="box_margin_h3_1 box_center">
-      <div class="h3_m black center">
-        <p>Das steckt drin</p>
-      </div>
+      <div class="h3_m black center">Das steckt drin</div>
     </div>
 
     <div class="box_center">
@@ -269,10 +277,10 @@
 
     </div>
 
-    <img class="box_contact_map" src="img/Map.jpg" alt="location map">
-
-  </section>
-
+  
+   <div class ="responsive_map">
+ <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9857.016216123777!2d10.12792094339173!3d54.34025851453836!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b2560c505797eb%3A0xf549da0f074162a9!2sFraunhoferstra%C3%9Fe%2013%2C%2024118%20Kiel!5e0!3m2!1sen!2sde!4v1612524208180!5m2!1sen!2sde" width="1400" height="484" frameborder="0" style="border:0;" allowfullscreen="yes" aria-hidden="false" tabindex="0"></iframe>
+  </div>
   <section id="footer">
     <div class="box_footer">
 
@@ -315,19 +323,20 @@
             <div class="box_footer_subitem_3">
               <div class="box_footer_subitem_4">
                 <div class="text_m_no_margin white">
-                  <a href="impressium.html">Impressum</a>
-                  <p>Datenschutz</p>
+                   <li><a class="link" href="impressium.html">Impressum</a></li>
+                   <li><a class="link" href="#">Datenschutz</a></li>
+                 
                 </div>
               </div>
-              <div  class="box_footer_subitem_4">
-                <div class="text_m_no_margin white"> 
-                  
-                  <li class="item"><a href="dasCafe.html">das Cafe</a></li>
-                  <li class="item"><a href="dieHerkunft.html">Herkunft</a></li>
-                  <li class="item"><a href="#">Shop</a></li>
-                  
+              <div class="box_footer_subitem_4">
+                <div class="text_m_no_margin white">
+
+                  <li><a class="link" href="dasCafe.html">das Cafe</a></li>
+                  <li><a  class="link" href="dieHerkunft.html">Herkunft</a></li>
+                  <li><a class="link"  href="#">Shop</a></li>
+
+                </div>
               </div>
-            </div>
             </div>
           </div>
         </div>
@@ -337,7 +346,7 @@
   <script src="js/index.js"></script>
   <script src="js/navigation.js"></script>
   <!-- adds hamburger and social media icons -->
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
 </body>
 
 </html>

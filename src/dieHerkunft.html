@@ -4,30 +4,43 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Subpage</title>
+  <title>Index Page</title>
   <link rel="stylesheet" href="
-    css/main.scss" />
+  css/main.scss" />
+  <link href="https://fonts.googleapis.com/css?family=Oregano" rel="stylesheet" />
 </head>
 
 <body>
-
-
-  <nav class="fixed-header" href=#landing_page>
-    <div class=nav_wrapper>
-      <div>
-        <ul class="menu nav">
-          <div class="logo">
-            <img src="img/Logo.png" alt="logo" srcset="img/logo.svg">
-          </div>
-          <li class="item"><a href="index.html">home</a></li>
-          <li class="item"><a href="dasCafe.html">das Cafe</a></li>
-          <li class="item"><a href="dieHerkunft.html">Herkunft</a></li>
-          <li class="item"><a href="#">Shop</a></li>
-          <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <header>
+            <div id= "mobilSidenav" class="container">
+                <nav class="navbar">
+                    <div class="logo">
+                      <img src="img/Logo.png" alt="logo" srcset="img/logo.svg">
+                    </div>
+                    <ul class="nav-list">
+                            <li class="nav-item">
+                            <a class="nav-link nav_fontsize active link" href="index.html">home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav_fontsize active link" href="dasCafe.html">das Cafe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav_fontsize link" href="dieHerkunft.html">Herkunft</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav_fontsize link" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav_fontsize link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="menu-toggle">
+                        <div class="hamburger">
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
   <main>
     <section id="dieHerkunft">
       <div class="bg_dieHerkunft_img">
@@ -152,7 +165,9 @@
       </div>
     </section>
   </main>
+ 
   <script src="js/index.js"></script>
+  <script src="js/navigation.js"></script>
 </body>
 
 </html>
