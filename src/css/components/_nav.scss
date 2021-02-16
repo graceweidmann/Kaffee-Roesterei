@@ -35,6 +35,13 @@ body {
     box-sizing: border-box;
 }
 
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
 html {
     font-size: 1rem;
 }
@@ -46,16 +53,15 @@ body {
     overflow-x: hidden;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
 p {
     font-size: 1rem;
 }
 
-/* Global Class */
+.dieHerkunft_textbox_1 a  {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 
 .container {
     margin: 0 auto;
@@ -65,26 +71,11 @@ p {
 }
 
 
-/* Responsive Navbar - Mobile first*/
-
-header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 8rem;
-}
-
-.navbar-brand {
-    color: #ffffff;
-    font-family: "Roboto", sans-serif;
-    text-transform: uppercase;
 }
 
 .nav-list {
@@ -105,19 +96,26 @@ header {
     transition: transform 0.5s;
 }
 /* Media Queries : Tablet */
+a {
+  color: $white;
+}
 
-@media screen and (min-width: 768px) {
+
+@media screen and (min-width: $media-m) {
+ 
+  
     .nav-list {
-        position: initial;
+        position: fixed;
         width: initial;
         height: initial;
         background-color: transparent;
-        padding: 0;
+        padding: 1rem;
         justify-content: initial;
         flex-direction: row;
         transform: initial;
         transition: initial;
-    }
+        }
+    
     .nav-link {
         margin-left: 4rem;
         transition: all 0.1s;
@@ -125,7 +123,8 @@ header {
     .menu-toggle {
         display: none;
     }
-}
+  }
+
 
 
 // .nav-link:hover {
@@ -135,6 +134,7 @@ header {
 
 .active {
   font-weight: 1000;
+
   @media only screen and (min-width: $media-m) {
     font-weight: 700;
     }
@@ -157,8 +157,8 @@ header {
 }
 
 .hamburger {
-    width: 2.4rem;
-    height: 3px;
+    width: 2.6rem;
+    height: 4px;
     background-color: #ffffff;
     border-radius: 2px;
     border: none; 
@@ -170,8 +170,8 @@ header {
 .hamburger::after {
     content: "";
     position: absolute;
-    width: 2.4rem;
-    height: 3px;
+    width: 2.6rem;
+    height: 4px;
     background-color: #ffffff;
     border-radius: 2px;
     border: none;
@@ -212,4 +212,3 @@ header {
   font-size: 50px;
   margin-left: 50px;
 }
-

@@ -11,7 +11,7 @@
 </head>
 
 
-<body> 
+<body>
  <header>
             <div id= "mobilSidenav" class="container">
                 <nav class="navbar">
@@ -19,16 +19,16 @@
                       <img src="img/Logo.png" alt="logo" srcset="img/logo.svg">
                     </div>
                     <ul class="nav-list">
-                        <li class="nav-item">
+                        <li>
                             <a class="nav-link nav_fontsize active link" href="dasCafe.html">das Cafe</a>
                         </li>
-                        <li class="nav-item">
+                        <li>
                             <a class="nav-link nav_fontsize link" href="dieHerkunft.html">Herkunft</a>
                         </li>
-                        <li class="nav-item">
+                        <li>
                             <a class="nav-link nav_fontsize link" href="#">Shop</a>
                         </li>
-                        <li class="nav-item">
+                        <li>
                             <a class="nav-link nav_fontsize link" href="#">Contact</a>
                         </li>
                     </ul>
@@ -40,7 +40,7 @@
             </div>
         </header>
 
-  <section id="landing_page">
+  <section id="landing_page" class="bg_dark">
     <div class="box_img">
       <div class="box_rustica h1_m white center">Rustica</div>
 
@@ -54,12 +54,12 @@
     </div>
   </section>
 
-  <section id="cafe">
+  <section id="cafe" class="bg_light">
 
     <div class="auto_layout box">
       <div class="inside_auto_layout">
         <p class="h2_m">Rösterei & Café</p>
-        <p class="text_m 
+        <p class="text_m
         "> Kaffee aus Kiel, direkt gehandelt und geröstet in der eigenen Rösterei, serviert im
           gemütlichen
           Café in der Innenstadt.</p>
@@ -96,7 +96,7 @@
       </div>
   </section>
 
-  <section id="kaffee_sorten">
+  <section id="kaffee_sorten" class="bg_dark">
     <div class="auto_layout">
       <div id="inside_auto_layout">
         <p class="h2_m white left ">Entdecke unsere Kaffee Sorten</p>
@@ -132,8 +132,9 @@
 
             </div>
           </div>
-          <div class="coffee_flavors">
-            <div class=card>
+
+         <div class="coffee_flavors">
+          <div class=card>
               <img class="img-coffee-kilo" src="img\FEND_Coffee_Costa-Rica 1.jpg" alt="" Kaffee Costa Rica>
               </>
               <p class="subhead_m white">Costa Rica</p>
@@ -165,8 +166,6 @@
           </div>
 
         </div>
-
-
 
         <div class="box_center">
           <div class="btn_kaffee_sorten">
@@ -175,10 +174,11 @@
             </div>
           </div>
         </div>
-
       </div>
+    </div>
   </section>
-  <section id="herkunft">
+
+  <section id="herkunft" class="bg_dark">>
     <div class="box_herkunft">
 
       <div class="h3_m white center">
@@ -199,7 +199,7 @@
     </div>
   </section>
 
-  <section id="coffee_features">
+  <section id="coffee_features" class ="bg_light">
 
     <div class="box_margin_h3_1 box_center">
       <div class="h3_m black center">Das steckt drin</div>
@@ -250,7 +250,6 @@
               <div class="box_feature_coffee_cup_icon_text">
                 <p class="text_m_no_margin">Bio Qualität</p>
               </div>
-
             </div>
           </div>
 
@@ -262,12 +261,10 @@
     <div class="btn_feature_coffee">
       <button class="btn btn_big btn_dark white text_m_btn">zum Shop</button>
     </div>
-
-
   </section>
 
 
-  <section id="contact">
+  <section id="map" class="bg_light">
 
     <div class="auto_layout">
       <div id="inside_auto_layout">
@@ -277,11 +274,11 @@
 
     </div>
 
-  
+
    <div class ="responsive_map">
  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9857.016216123777!2d10.12792094339173!3d54.34025851453836!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b2560c505797eb%3A0xf549da0f074162a9!2sFraunhoferstra%C3%9Fe%2013%2C%2024118%20Kiel!5e0!3m2!1sen!2sde!4v1612524208180!5m2!1sen!2sde" width="1400" height="484" frameborder="0" style="border:0;" allowfullscreen="yes" aria-hidden="false" tabindex="0"></iframe>
   </div>
-  <section id="footer">
+  <section id="footer" class="bg_none">
     <div class="box_footer">
 
       <div class="box_footer_item">
@@ -325,7 +322,7 @@
                 <div class="text_m_no_margin white">
                    <li><a class="link" href="impressium.html">Impressum</a></li>
                    <li><a class="link" href="#">Datenschutz</a></li>
-                 
+
                 </div>
               </div>
               <div class="box_footer_subitem_4">
@@ -345,8 +342,10 @@
 
   <script src="js/index.js"></script>
   <script src="js/navigation.js"></script>
-  <!-- adds hamburger and social media icons -->
-  <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
+  <script src="js/nav_color.js"></script>
+  adds hamburger and social media icons
+  <!-- <script src="https://kit.fontawesome.com/a076d05
+    399.js"></script> -->
 </body>
 
 </html>
