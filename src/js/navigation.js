@@ -1,11 +1,11 @@
 // Mobile-first responsive navigation 
 
 
-const navbar = document.querySelector(".navbar");
+const nav = document.querySelector(".nav-header");
 const menuToggle = document.querySelector(".menu-toggle");
 
 menuToggle.addEventListener("click", () => {
-  navbar.classList.toggle("open");
+  nav.classList.toggle("open");
 });
 
 

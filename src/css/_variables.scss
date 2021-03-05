@@ -42,7 +42,11 @@ $color-grey-dark-3: #333;
 $color-white: #fff;
 $color-black: #000;
 // Color system
-//
-
-$white:    #fff !default;
 $transparent: transparent;
+
+//nav for media-m onwards has different colored links, depending on bg-color of section.
+$media-m-navlink: $white;
+$media-m-bg-nav: $transparent;
+
+
+//default, will be toggled black or white using javascript

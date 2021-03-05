@@ -14,14 +14,21 @@ a {
   display: block;
 //   margin-top: 5px;
   right: 0;
-  background: #fff;
+  background: $white;
   transition: width .2s ease;
   -webkit-transition: width .2s ease;
+}
+ 
+.fixed-nav .link:after {
+  background: $black;
 }
  
 .link:hover:after{
   width: 100%;
   left: 0;
-  background: #fff;
+  background: $white;
 }
 
+.fixed-nav .link:hover:after{
+  background: $black;
+}
