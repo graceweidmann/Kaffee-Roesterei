@@ -19,7 +19,8 @@ a {
   -webkit-transition: width .2s ease;
 }
  
-.fixed-nav .link:after {
+.fixed-nav .link:after,.bg-light .link:after {
+  color:$black;
   background: $black;
 }
  
@@ -29,6 +30,8 @@ a {
   background: $white;
 }
 
-.fixed-nav .link:hover:after{
+.fixed-nav .link:hover:after, 
+.bg-light .link:hover:after
+{
   background: $black;
 }
