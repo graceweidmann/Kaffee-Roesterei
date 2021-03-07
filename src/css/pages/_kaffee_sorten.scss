@@ -11,22 +11,21 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .coffee_flavors {
     display: border-box;
-    width: 42%;
-    &:not(:last-child) {
-        margin-right: 22px;
-    }
+    width: 40%;
+   padding:1rem;
     @media only screen and (min-width: $media-l) {
-         width: 24%;
-         &:not(:last-child) {
-        margin-right: 18px;
+         width: 20%;
+         padding:1rem;
     }
 }
-}
+
    
 
 .img-coffee-kilo {
@@ -44,13 +43,17 @@
     display:inline-flex;
     flex-direction: row;
 }
-
+.margin-top-5 {
+    margin-top: 5px;
+} 
+.margin-top-10 {
+    margin-top: 10px;
+} 
 .icon-coffee-symbols {
     height: 14px;
     width: 12px;
-    left: 1px;
-    right: 9px;
-    top: 5px;
+    margin-right: 10px;
+    
 
     @media only screen and (min-width: $media-l) {
         height: 20px;
@@ -58,4 +61,11 @@
         left: 2px;
         top: 7px;
     }
+}
+
+.btn_kaffee_sorten {
+    display: block;
+    position: relative;
+    margin-top: 5rem;
+
 }
