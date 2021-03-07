@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+  }
+
+  
+  /* Style inputs */
+  input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-bottom: 3px solid $black;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+ 
+    @media screen and (max-width: $media-m -1) {
+  #telefonummer  {
+    background-color: $color-red-light;
+    color: $color-red-medium;
+  }
+}
+
+  input[type=text]:hover, input[type=email]:hover, textarea:hover {
+    
+    background-color: $color-primary-light;
+    color: $color-primary-dark;
+  }
+
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .subject-menu {
+    border: 3px solid $color-primary-dark;
+  }
+  /* Style the container/contact section */
+  .contact-container {
+    width: 90%;   
+    margin: 1rem auto;
+    padding: 0%;
+      position: relative;
+      display:flex;
+      flex-direction: column;
+      @media all and (min-width: $media-m) {
+        flex-direction: row;
+        margin-top: 0;
+      }
+  }
+ 
+  .contact-box, input[type=submit] {
+    width: 100%;   
+    margin-top: 2rem auto;
+    @media screen and (min-width: $media-m) {
+    width: 50%;
+    margin: 6px 1rem;
+    padding: 20px;
+  }
+}
+.dropdown-btn{
+  
+    width:100%;
+  
+  
+}  
+ 
+ /* The container must be positioned relative: */
+.custom-select {
+    position: relative;
+    margin-bottom: 1rem;
+    
+;
+  }
+  
+  .custom-select select {
+    display: none; /*hide original SELECT element: */
+  }
+  
+  .select-selected {
+    background-color:$black;
+    color: $white;
+    
+  }
+  
+  /* Style the arrow inside the select element: */
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: $white transparent transparent;
+  }
+  
+  /* Point the arrow upwards when the select box is open (active): */
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent $white transparent;
+    top: 7px;
+  }
+  
+  /* style the items (options), including the selected item: */
+  .select-items div,.select-selected {
+
+    padding: 8px 16px;
+
+    cursor: pointer;
+  }
+  
+  
+  /* Style items (options): */
+  .select-items {
+    position: absolute;
+    color: $black;
+    background-color: $white;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border: 1px solid $black;
+  }
+  
+  /* Hide the items when the select box is closed: */
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }

@@ -11,46 +11,9 @@ body {
 
 main {
   div {
-    color: $black;
-
-
-    // Small devices (landscape phones, 576px and up)
-    @media screen and (max-width: $media-sm) {
-      color: var(--div-color);
-    }
-
-
-
-    // Medium devices (tablets, 768px and up)
-    @media screen and (max-width: $media-m) {
-
-      color: var(--div-color);
-    }
-
-
-
-
-    // Large devices (desktops, 992px and up)
-    @media screen and (max-width: $media-l) {
-      color: var(--div-color);
-    }
-
-
-
-    // Extra large devices (large desktops, 1200px and up)
-    @media screen and (max-width: $media-xl) {
-      color: var(--div-color);
-    }
-
-    // Very large desktop devices (1920px and up)
-    @media screen and (max-width: $media-xxl) {
-      color: var(--div-color);
-    }
-
-
-  }
+    color: $color-primary-dark;
 }
-
+}
 .white {
   color: $white;
 }
@@ -83,16 +46,19 @@ main {
   }
 }
 
+.contact-container.h2_m {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 /* identical to box height, or 129% */
 .h2_m {
-
- 
   font-weight: 900;
   font-size: 36px;
   line-height: 34px;
   margin-top: 60px;
   margin-bottom: 40px;
 
+  
   @media only screen and (min-width: $media-l) {
 
     //styleName: H2;
@@ -101,14 +67,27 @@ main {
     letter-spacing: 0em;
     margin-top: 125px;
     margin-bottom: 80px;
+
   }
+  
 }
 
+.contact-box .h2_m {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+
+@media only screen and (min-width: $media-l) {
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+}
 /* identical to box height, or 94% */
 
 //styleName: H3 m;
 .h3_m {
-  font-family: Roboto;
+
   font-size: 32px;
   font-style: normal;
   font-weight: 900;
@@ -145,7 +124,7 @@ line-height: 21px;
  }
 
 .subhead_m {
-  font-family: Roboto;
+
   font-style: normal;
   font-weight: normal;
 

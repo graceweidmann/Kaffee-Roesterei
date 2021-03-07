@@ -55,7 +55,7 @@ html {
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: Roboto sans-serif;
     font-size: 1rem;
     font-weight: 400;
     overflow-x: hidden;
@@ -106,9 +106,12 @@ p {
 }
 
 .nav-link {
-  color:$white
-  ; 
+  color:$white; 
 }
+
+
+
+
 .fixed-nav {
   position: fixed;
   
@@ -116,6 +119,9 @@ p {
 /* Media Queries : Tablet and larger*/
 
 @media screen and (min-width: $media-m) {
+.bg-light .nav-link {
+  color:$black;
+} 
   .fixed-nav {
     
     background-color: $white;

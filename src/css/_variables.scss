@@ -1,5 +1,6 @@
 $white: #FFFFFF;
 $black: #000000;
+$anthracite:#1A1A1A;
 $grey: #737373;
 
 $media-xs: 350px;
@@ -13,9 +14,11 @@ $font-weight-normal: 400;
 $p-margin-top:2rem;
 
 
-$color-primary-light: #bbe0b6;
+$color-primary-light: #E9E9E9;
+;
+;
 $color-primary-medium: #75bb8c;
-$color-primary-dark: #0f4735;
+$color-primary-dark: $anthracite;
 
 $color-secondary-light: #e7d7aade;
 $color-secondary-medium: #cea22bde;
@@ -25,8 +28,9 @@ $color-tertiary-light: #dcf2ff;
 $color-tertiary-medium: #86b2cc;
 $color-tertiary-dark: #324e68;
 
-$color-red-light: #f0c4c4;
-$color-red-medium: #d65959;
+$color-red-medium: #FF0000;
+$color-red-light:lighten($color-red-medium,30%);
+
 $color-red-dark: #880000;
 
 

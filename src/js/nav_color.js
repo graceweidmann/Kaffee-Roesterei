@@ -20,7 +20,8 @@ navToggle.addEventListener("click", function () {
 });
 
 // ********** fixed navbar ************
-
+var bgLight = document.querySelectorAll("bg-light");
+const contact = document.getElementById("contact");
 const navbar = document.getElementById("navigation");
 const navLogo = document.getElementById("nav-logo");
 // const topLink = document.querySelector(".top-link");
@@ -28,7 +29,8 @@ const navLogo = document.getElementById("nav-logo");
 window.addEventListener("scroll", function () {
   const scrollHeight = window.pageYOffset;
   const navHeight = navbar.getBoundingClientRect().height;
-  if (scrollHeight > navHeight) {
+  if (scrollHeight > navHeight)
+    {
     navbar.classList.add("fixed-nav");
     navLogo.setAttribute("fill","black");
   } else {
