@@ -1,0 +1,75 @@
+#shop-main {
+    display: block;
+    position: relative;
+    display: flex;
+    background-color: $white;
+
+}
+
+
+.container_coffee {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.coffee_flavors {
+    display: border-box;
+    width: 40%;
+   padding:1rem;
+    @media only screen and (min-width: $media-l) {
+         width: 20%;
+         padding:1rem;
+    }
+}
+
+   
+
+.img-coffee-kilo {
+    display: border-box;
+    width: 100%;
+    margin: 0 -10 0 11px;
+    object-fit: contain;
+}
+
+.card {
+    margin: 0;
+}
+.card-color{
+    background: $color-grey-light-1;
+}
+.card-color:hover {
+    background: $color-secondary-medium;
+    transform: scale(1.5);
+    transform: translate(0, -5px);
+}
+
+.feature-icons {
+    display:inline-flex;
+    flex-direction: row;
+} 
+.icon-coffee-symbols {
+    height: 14px;
+    width: 12px;
+    margin-right: 10px;
+    fill:$black;
+    
+
+    @media only screen and (min-width: $media-l) {
+        height: 20px;
+        width: 17px;
+        left: 2px;
+        top: 7px;
+    }
+}
+
+.btn_kaffee_sorten {
+    display: block;
+    position: relative;
+    margin-top: 5rem;
+    color:$white;
+
+}

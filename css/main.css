@@ -1230,7 +1230,7 @@ layout_dark {
   margin: 0;
 }
 
-.icon-coffee-symbols {
+.icon-coffee-symbols fill-black{
   height: 14px;
   width: 12px;
   left: 1px;
@@ -1239,7 +1239,7 @@ layout_dark {
 }
 
 @media only screen and (min-width: 992px) {
-  .icon-coffee-symbols {
+  .icon-coffee-symbols fill-black{
     height: 20px;
     width: 17px;
     left: 2px;
