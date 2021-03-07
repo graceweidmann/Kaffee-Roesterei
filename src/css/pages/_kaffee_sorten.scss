@@ -31,7 +31,6 @@
 
 .img-coffee-kilo {
     display: border-box;
-
     width: 100%;
     margin: 0 -10 0 11px;
     object-fit: contain;
@@ -39,6 +38,11 @@
 
 .card {
     margin: 0;
+}
+
+.feature-icons {
+    display:inline-flex;
+    flex-direction: row;
 }
 
 .icon-coffee-symbols {
